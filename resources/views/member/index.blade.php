@@ -2,7 +2,7 @@
 <html>
 <head>
  <title>Data Member</title>
- <link rel="stylesheet" href="{{ asset('/css/bootstrap.css') }}">
+ <link href=" {{ mix('css/app.css') }}" rel="stylesheet">
  
  <style>
  body {

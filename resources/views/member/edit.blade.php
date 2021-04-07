@@ -2,7 +2,7 @@
 <html>
 <head>
  <title>Edit Data Member</title>
- <link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css') }}">
+ <link href=" {{ mix('css/app.css') }}" rel="stylesheet">
  <style>
  body {
  margin-top: 15px;
