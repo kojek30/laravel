@@ -21,14 +21,14 @@
  <div class="card-body">
  <h1>Data Member</h1>
  <p>Cari Data Member : </p>
- <form action="member/cari" mehod="GET" class="forminline">
+ <form action="http://laravel.test/member/cari" mehod="GET" class="forminline">
  <input class="form-control" type="text" name="cari"
 placeholder="Cari Member" value="{{ old('cari') }}">
  <input class="btn btn-primary ml-3" type="submit"
 value="CARI">
  </form>
  <br>
- <a href="member/tambah" class="btn btn-primary">+ Tambah
+ <a href="http://laravel.test/member/tambah" class="btn btn-primary">+ Tambah
 Member Baru</a>
  <br>
  <br>
@@ -48,9 +48,9 @@ Member Baru</a>
  <td>{{ $m->alamat }} </td>
  <td>
  <a class="btn btn-warning"
-href="member/edit/{{ $m->id }}">Edit</a>
+href="http://laravel.test/member/edit/{{ $m->id }}">Edit</a>
  <a class="btn btn-danger"
-href="member/hapus/{{ $m->id }}">Hapus</a>
+href="http://laravel.test/member/hapus/{{ $m->id }}">Hapus</a>
  </td>
  </tr>
  @endforeach

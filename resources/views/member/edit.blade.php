@@ -16,7 +16,7 @@
  <div class="card">
  <div class="card-body">
  <h3>Edit Member</h3>
- <a href="/member" class="btn btn-primary">Kembali</a>
+ <a href="http://laravel.test/member" class="btn btn-primary">Kembali</a>
  <br>
  <br>
  @if(count($errors) > 0)
@@ -29,7 +29,7 @@
  </div>
  @endif
  @foreach($member as $m)
- <form action="/member/update" method="post">
+ <form action="http://laravel.test/member/update" method="post">
  @csrf
  <input type="hidden" name="id" value="{{ $m->id }}">
  <div class="form-group">

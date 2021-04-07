@@ -16,7 +16,7 @@
  <div class="card">
  <div class="card-body">
  <h3>Tambah Data Member</h3>
- <a href="/member/" class="btn btnprimary">Kembali</a>
+ <a href="http://laravel.test/member/" class="btn btnprimary">Kembali</a>
  <br>
  <br>
  @if(count($errors) > 0)
@@ -28,7 +28,7 @@
  </ul>
  </div>
   @endif
- <form action="/member/store" method="post">
+ <form action="http://laravel.test/member/store" method="post">
  {{ csrf_field() }}
  <div class="form-group">
  <label>Nama</label>
