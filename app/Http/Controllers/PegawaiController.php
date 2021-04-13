@@ -9,7 +9,8 @@ use App\Models\Pegawai;
 class PegawaiController extends Controller
 {
     public function index()
- {// $pegawai = Pegawai::all();
+ {
+ // $pegawai = Pegawai::all();
  $pegawai = Pegawai:: paginate(5);
  return view('pegawai.index' ,[ 'pegawai' =>$pegawai]);
  }
